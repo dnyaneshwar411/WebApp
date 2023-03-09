@@ -1,0 +1,14 @@
+{% extends 'htmlLayout.html' %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+{% endblock %}
+{% block body %}
+<div class="india">
+    <h1>hey there!</h1>
+    <form action="/" method="post">
+        <input type="text" placeholder="City Name" name="cityName">
+        <!-- <input type="text" placeholder="Last Name" name="name2"> -->
+        <input type="submit" placeholder="Go">
+    </form>
+</div>
+{% endblock %}

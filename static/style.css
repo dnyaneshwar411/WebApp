@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    color: #47B5FF;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.india {
+    height: 45rem;
+    width: 100%;
+    background-image: radial-gradient(#474747, 25%, #07022e);
+    background-size: contain;
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-block: 2rem;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    color: black;
+    background-color: #DFF6FF;
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    color: #47B5FF;
+}
+
+input::placeholder {
+    color: #47B5FF;
+    font-weight: 600;
+}
